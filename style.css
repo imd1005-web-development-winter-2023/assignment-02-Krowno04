@@ -13,10 +13,30 @@ ul.header {
 }
 
 header a {
-    color: #C7C7C7;
+    color: #c0c0c0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
 }
+
+header a:hover{
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+header a:active{
+    color: #686868;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+header a:focus{
+    color: #ff831d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+
 
 header img {
     margin: -30px;
@@ -380,7 +400,25 @@ footer {
 }
 
 footer a {
-    color: #C7C7C7;
+    color: #c0c0c0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+footer a:active{
+    color: #686868;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+footer a:focus{
+    color: #ff831d;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
 }
