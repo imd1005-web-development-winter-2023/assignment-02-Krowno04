@@ -1,3 +1,450 @@
-/*
-  CSS File
-*/
+/*HEADER/NAV BAR STYLE*/
+ul.header {
+    background-color: #212121;
+    margin: -10px;
+    padding: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 130%;
+
+}
+
+header a {
+    color: #c0c0c0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+header a:active{
+    color: #686868;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+header a:focus{
+    color: #ff831d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+header img {
+    margin: -30px;
+}
+
+/*HERO STYLE*/
+.LTBox {
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 100px;
+    background-image: url(images/NyxRadioBanner.png);
+    background-color: rgb(48, 48, 48);
+    background-position: center center;
+    color: rgb(248, 248, 248);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 150%;
+    letter-spacing: -0.5px;
+}
+
+.LTBox img {
+    margin: -10px;
+}
+
+.LTBox h1 {
+    font-size: 200%;
+}
+
+.LTBox p {
+    line-height: 30px;
+}
+
+/*HERO BUTTON STYLE*/
+.LTBox button {
+    width: 350px;
+    height: 100px;
+    color: #eeee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    background-color: #0f0f0fbe;
+    border-color: #00000000;
+    border-radius: 50px;
+}
+
+.LTBox button:hover {
+    background-color: #333333be;
+    transition: 0.1s;
+    border-radius: 40px;
+}
+
+.LTBox button:focus {
+    background-color: #aaaaaabe;
+}
+
+.LTBox button:active {
+    background-color: #ccccccbe;
+}
+
+
+/*RECENT UPDATE SECTION STYLE*/
+.recent-update {
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 100px;
+    display: flex;
+    background-color: #2E2C2C;
+    background-position: center center;
+    color: rgb(248, 248, 248);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    letter-spacing: .1px;
+}
+
+.recent-update h2 {
+    font-size: 350%;
+    margin-left: 70px;
+}
+
+.recent-update p {
+    padding-left: 170px;
+    font-size: 150%;
+    line-height: 30px;
+}
+
+/*RECENT UPDATE BUTTON STYLE*/
+.recent-update button {
+    width: 470px;
+    height: 100px;
+    color: #eeee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    background-color: #0f0f0f94;
+    border-color: #00000000;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+.recent-update button:hover {
+    background-color: #333333be;
+    transition: 0.1s;
+    border-radius: 40px;
+}
+
+.recent-update button:focus {
+    background-color: #aaaaaabe;
+}
+
+.recent-update button:active {
+    background-color: #ccccccbe;
+}
+
+/*SHOWCASES STYLE STYLE*/
+.showcase {
+    background-image: url(images/LT_Broken_Lands_-_Jairo_Fall.png);
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 10px;
+    background-color: #2E2C2C;
+    background-position: center center;
+    color: rgb(248, 248, 248);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+.showcase h2 {
+    font-size: 350%;
+    background-color: #000000ab;
+    border-radius: 50px;
+    height: auto;
+    width: auto;
+}
+
+.showcase h3 {
+    font-size: 200%;
+}
+.showcase p {
+    font-size: 150%;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.showcase img {
+    border-radius: 50px;
+}
+
+.showcase1 {
+    background-color: #000000ab;
+    padding: 50px;
+    border-radius: 100px;
+    display: flex;
+}
+.showcase2 {
+    background-color: #000000ab;
+    padding: 50px;
+    border-radius: 100px;
+    display: flex;
+}
+
+/*SHOWCASE BUTTON STYLE*/
+.showcase button {
+    width: 270px;
+    height: 100px;
+    color: #eeee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    background-color: #0f0f0f94;
+    border-color: #00000000;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+.showcase button:hover {
+    background-color: #333333be;
+    transition: 0.1s;
+    border-radius: 40px;
+}
+
+.showcase button:focus {
+    background-color: #aaaaaabe;
+}
+
+.showcase button:active {
+    background-color: #ccccccbe;
+}
+
+/*REVIEWS STYLE*/
+.reviews {
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 100px;
+    background-color: #2E2C2C;
+    background-position: center center;
+    color: rgb(248, 248, 248);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    letter-spacing: -0.5px;
+}
+
+.reviews h2 {
+    font-size: 350%;
+}
+
+.reviews p {
+    font-size: 150%;
+}
+
+.r1 {
+    background-color: #0000007e;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+.r2 {
+    background-color: #0000007e;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+.r3 {
+    background-color: #0000007e;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+/*REVIEWS BUTTON STYLE*/
+.reviews button {
+    width: 100%;
+    height: 70px;
+    color: #eeee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    background-color: #0f0f0f94;
+    border-color: #00000000;
+    border-radius: 50px;
+}
+
+.reviews button:hover {
+    background-color: #333333be;
+    transition: 0.1s;
+    border-radius: 40px;
+}
+
+.reviews button:focus {
+    background-color: #aaaaaabe;
+}
+
+.reviews button:active {
+    background-color: #ccccccbe;
+}
+
+/*SIGNUP SECTION STYLE*/
+.signup {
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 100px;
+    background-image: url(images/NyxHi.PNG);
+    background-color: #2E2C2C;
+    background-position: center center;
+    color: rgb(248, 248, 248);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 200%;
+}
+
+.signup button {
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-top: 10px;
+    color: #eeee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60%;
+    background-color: #0f0f0f94;
+    border-color: #00000000;
+    border-radius: 50px;
+}
+
+.signup button:hover {
+    background-color: #333333be;
+    transition: 0.1s;
+    border-radius: 40px;
+}
+
+.signup button:focus {
+    background-color: #aaaaaabe;
+}
+
+.signup button:active {
+    background-color: #ccccccbe;
+}
+
+.nameinput {
+    width: 200px;
+    height: 35px;
+    background-color: #0000007e;
+    border-radius: 10px;
+    margin: 10px;
+    border-color: #00000000;
+    color: white;
+}
+.emailinput {
+    width: 200px;
+    height: 35px;
+    background-color: #0000007e;
+    border-radius: 10px;
+    margin: 10px;
+    border-color: #00000000;
+    color: white;
+}
+
+.signup a {
+    color: #c7c7c7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.signup a:hover{
+    color: #c28c68;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.signup a:focus{
+    color: #ff5e00;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.signup a:active{
+    color: #ff9100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+/*FOOTER STYLE*/
+ul.footer {
+    background-color: #212121;
+    margin: -10px;
+    margin-top: 10px;
+    padding: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 130%;
+}
+
+footer {
+    background-color: #212121;
+    margin: -10px;
+    margin-top: 10px;
+    padding: 30px;
+}
+
+footer a {
+    color: #c0c0c0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+footer a:active{
+    color: #686868;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+footer a:focus{
+    color: #ff831d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+footer li {
+    color: #5e5e5e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+footer p {
+    color: #5e5e5e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer img {
+    margin: -30px;
+}
